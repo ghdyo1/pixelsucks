@@ -1,12 +1,7 @@
 @font-face {
-  font-family: 'Old Soviet';
-  src: url('../font/old-soviet.otf') format('opentype');
-}
-
-@font-face{
-	font-family: 'JMH Typewriter';
-	size-adjust: 117%;
-	src: url('../font/jmh-typewriter.otf') format('opentype');
+  font-family: 'Special Elite Cyrillic';
+  src: url('../font/specialelite-cyrillic.woff') format('woff'),
+       url('../font/specialelite-cyrillic.ttf')  format('truetype');
 }
 
 /* For fancy [RU]Souvenir */
@@ -16,5 +11,5 @@
 }
 
 html {
-    font-family: 'Old Soviet', 'JMH Typewriter', 'Courier New', monospace !important;
+    font-family: 'Special Elite Cyrillic', 'Courier New', monospace !important;
 }
